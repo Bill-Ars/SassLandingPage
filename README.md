@@ -45,4 +45,4 @@ sassLandingPage/
 
 ## 👨‍💻 Autor
 
-Desenvolvido por Bill Arsénio.
+Desenvolvido por Bill Arsénio Ndayisaba.
