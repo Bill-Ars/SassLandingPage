@@ -182,7 +182,7 @@ body{
     justify-content: center;
     position: relative;
     padding-top: 40px;
-    padding-bottom: 60px; /* espaço para a curva não cortar a imagem */
+    padding-bottom: 60px; 
 }
 
 .dashboard::before {
@@ -194,7 +194,7 @@ body{
     height: 71%;        
     background: #0d47ff;
 
-    /* curva elíptica correcta: horizontal_radius vertical_radius */
+    /* curva elíptica: horizontal_radius vertical_radius */
    border-bottom-left-radius: 50% 60px;
 border-bottom-right-radius: 50% 60px;
 
@@ -385,7 +385,7 @@ border-bottom-right-radius: 50% 60px;
 
 
 
-/*AREA DE GETTING STARTED AGORA, VOU ME FOCAR NISSO*/
+/*AREA DE GETTING STARTED*/
 
 /* AREA GET STARTED */
 
@@ -426,7 +426,7 @@ border-bottom-right-radius: 50% 60px;
 /* AREA DA IMAGEM */
 
 .getStarted2{
-    flex: 1;
+    flex: 1;git
 
     position: relative;
 
@@ -452,4 +452,908 @@ border-bottom-right-radius: 50% 60px;
     border-radius: 2px;
 
    
+}
+
+
+/*Area azul, que é para ser chamativa ao cliente*/
+
+/* =========================================
+   AREA AZUL / CALL TO ACTION
+========================================= */
+
+.areaCall{
+    width: 100%;
+    background: #0b18a1;
+    padding: 60px;
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+
+/* =========================================
+   PRIMEIRA LINHA
+========================================= */
+
+.areaCall .topArea{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.textoView h2{
+    color: white;
+    font-size: 3rem;
+    line-height: 1.1;
+    font-weight: 700;
+}
+
+.areaCall button{
+    padding: 16px 30px;
+
+    border: none;
+    border-radius: 999px;
+
+    background: white;
+    color: #0E1EDB;
+
+    font-weight: bold;
+    font-size: 1rem;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+.areaCall button:hover{
+    transform: translateY(-2px);
+}
+
+
+/* 
+   SEGUNDA LINHA
+ */
+
+.areaCall .bottomArea{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+
+/*
+   LADO ESQUERDO
+ */
+
+.steps{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    flex: 1;
+}
+
+.stepCard{
+    background: #0E1EDB;
+
+    padding: 20px;
+
+    border-radius: 16px;
+
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+
+/* NÚMERO */
+
+.number{
+    width: 55px;
+    height: 55px;
+    min-width: 55px;
+
+    border-radius: 50%;
+
+    background: white;
+    color: #0E1EDB;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+
+/* TEXTO */
+
+.stepText h3{
+    color: white;
+
+    margin-bottom: 8px;
+
+    font-size: 1.2rem;
+}
+
+.stepText p{
+    color: #dcdcdc;
+
+    font-size: 0.95rem;
+
+    line-height: 1.6;
+}
+
+
+/*
+   IMAGEM
+ */
+
+.imageArea{
+    flex: 1;
+}
+
+.imageArea img{
+    width: 100%;
+    height: 100%;
+
+    border-radius: 20px;
+
+    object-fit: cover;
+}
+
+
+/* 
+   RESPONSIVIDADE
+ */
+
+
+/* TABLETS */
+
+@media (max-width: 992px){
+
+    .areaCall{
+        padding: 40px 30px;
+    }
+
+    .topArea{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .textoView h2{
+        font-size: 2.5rem;
+    }
+
+    .bottomArea{
+        flex-direction: column;
+    }
+
+    .imageArea{
+        width: 100%;
+    }
+
+}
+
+
+/* MOBILE */
+
+@media (max-width: 600px){
+
+    .areaCall{
+        padding: 30px 20px;
+        gap: 35px;
+    }
+
+    .textoView h2{
+        font-size: 2rem;
+    }
+
+    .stepCard{
+        flex-direction: column;
+    }
+
+    .number{
+        width: 45px;
+        height: 45px;
+        min-width: 45px;
+
+        font-size: 1.2rem;
+    }
+
+    .stepText h3{
+        font-size: 1rem;
+    }
+
+    .stepText p{
+        font-size: 0.9rem;
+    }
+
+    .areaCall button{
+        width: 100%;
+    }
+
+}
+
+
+
+
+
+
+.gettingStarted{
+    width: 100%;
+    padding: 80px 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+
+.gettingStarted h2{
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+    max-width: 700px;
+}
+
+
+/* CAIXA */
+.planBox{
+    border: 2px solid #d9d9d9;
+    border-radius: 16px;
+
+    padding: 30px 40px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+
+/* TEXTO */
+.discount{
+    font-size: 1rem;
+    font-weight: 600;
+    color: #666;
+}
+
+
+/* BOTÕES */
+.buttonsPlan{
+    background: #f2f2f2;
+    padding: 8px;
+    border-radius: 50px;
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.buttonsPlan button{
+    
+    background: rgb(202, 201, 206);
+
+    padding: 12px 24px;
+    border-radius: 25px;
+    border: 1 px solid yellow;;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+
+/* BOTÃO ATIVO */
+.buttonsPlan .active{
+    background: #3454ff;
+    color: white;
+    font-weight: bold;
+}
+
+.botao2{
+    padding: 14px 28px;
+    
+    
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: rgb(154, 154, 158);
+}
+
+.botaoN{
+    border-radius: 20px;
+    background-color: rgb(212, 212, 223);
+    padding: 2px   1px;
+}
+
+
+
+
+/* =========================================
+   SECTION DOS CARDS
+========================================= */
+
+.cards{
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+    flex-wrap: wrap;
+
+    padding: 80px 20px;
+}
+
+
+/* =========================================
+   CARD
+========================================= */
+
+.card{
+    width: 320px;
+
+    border: 1px solid #dcdcdc;
+    border-radius: 20px;
+
+    padding: 30px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+
+    transition: 0.3s;
+}
+
+
+
+.card:hover{
+    transform: translateY(-8px);
+}
+
+
+/* CARD POPULAR */
+
+.popular{
+    background: #1737ff;
+    color: white;
+}
+
+.popular hr{
+    border-color: rgba(255,255,255,0.3);
+}
+
+
+/* =========================================
+   TOPO
+========================================= */
+
+.cardTop{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+/* TAG */
+
+.planName{
+    width: fit-content;
+
+    
+    
+
+    padding: 6px 14px;
+
+    border-radius: 8px;
+
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+
+/* PREÇO */
+
+.price{
+    display: flex;
+    align-items: flex-end;
+    gap: 5px;
+}
+
+.price h2{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.price span{
+    font-size: 1rem;
+    margin-bottom: 8px;
+}
+
+
+/* TEXTO */
+
+.planText{
+    color: #777;
+    font-size: 0.95rem;
+}
+
+.popular .planText{
+    color: #e4e4e4;
+}
+
+
+/* =========================================
+   FEATURES
+========================================= */
+
+.features{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+
+.feature{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+
+/* CÍRCULO */
+
+.circle{
+    width: 20px;
+    height: 20px;
+
+    min-width: 20px;
+
+    border-radius: 50%;
+
+    background: #1737ff;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 0.7rem;
+    font-weight: bold;
+}
+
+.popular .circle{
+    background: white;
+    color: #1737ff;
+}
+
+
+/* =========================================
+   BOTÃO
+========================================= */
+
+.card button{
+    margin-top: auto;
+
+    width: 100px;
+
+    border: none;
+
+    padding: 6px;
+
+    border-radius: 999px;
+
+    background: #1737ff;
+    color: white;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+
+   
+}
+
+.areaButton{
+    display: flex;
+    flex-direction: row;;
+    justify-content: center;
+    align-items: center;;
+}
+
+.card button:hover{
+    transform: scale(1.03);
+}
+
+
+/* BOTÃO CARD POPULAR */
+
+.popular button{
+    background: white;
+    color: #1737ff;
+}
+
+
+/* =========================================
+   RESPONSIVO
+========================================= */
+
+@media (max-width: 992px){
+
+    .cards{
+        gap: 20px;
+    }
+
+    .card{
+        width: 100%;
+        max-width: 400px;
+    }
+
+}
+
+
+@media (max-width: 600px){
+
+    .cards{
+        padding: 50px 15px;
+    }
+
+    .card{
+        padding: 25px;
+    }
+
+    .price h2{
+        font-size: 2.3rem;
+    }
+
+}
+
+
+
+
+.areaButton{
+    display: flex';
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+/* =========================================
+   TESTEMUNHOS
+========================================= */
+
+.areaTestemunho{
+    width: 100%;
+
+    padding: 80px 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 50px;
+}
+
+
+/* TÍTULO */
+
+.areaTestemunho .titulo{
+    font-size: 3rem;
+    font-weight: 700;
+
+    text-align: center;
+}
+
+
+/* =========================================
+   ÁREA DOS CARDS
+========================================= */
+
+.AreaCards{
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+    flex-wrap: wrap;
+}
+
+
+/* =========================================
+   CARD
+========================================= */
+
+.cardA,
+.cardB,
+.cardC{
+    width: 320px;
+
+    background: #f8f8f8;
+
+    padding: 30px;
+
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 25px;
+
+    transition: 0.3s;
+}
+
+.cardA:hover,
+.cardB:hover,
+.cardC:hover{
+    transform: translateY(-8px);
+}
+
+
+/* =========================================
+   ESTRELAS
+========================================= */
+
+.stars{
+    display: flex;
+    gap: 8px;
+}
+
+.stars i{
+    color: #2444ff;
+    font-size: 1rem;
+}
+
+
+/* =========================================
+   TEXTO
+========================================= */
+
+.cardText{
+    color: #555;
+
+    line-height: 1.7;
+
+    font-size: 0.95rem;
+}
+
+
+/* =========================================
+   USER
+========================================= */
+
+.user{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.user img{
+    width: 55px;
+    height: 55px;
+
+    border-radius: 50%;
+
+    object-fit: cover;
+}
+
+.user h3{
+    font-size: 1rem;
+    margin-bottom: 4px;
+}
+
+.user span{
+    color: #777;
+    font-size: 0.9rem;
+}
+
+
+/* =========================================
+   RESPONSIVO
+========================================= */
+
+@media (max-width: 992px){
+
+    .AreaCards{
+        gap: 20px;
+    }
+
+}
+
+
+@media (max-width: 600px){
+
+    .areaTestemunho{
+        padding: 50px 15px;
+    }
+
+    .areaTestemunho .titulo{
+        font-size: 2rem;
+    }
+
+    .cardA,
+    .cardB,
+    .cardC{
+        width: 100%;
+    }
+
+}
+
+
+
+
+
+/* RESET */
+
+
+
+/* BODY */
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5f5f5;
+}
+
+/* FOOTER */
+
+.footer{
+    width: 100%;
+    background-color: #081220;
+    color: white;
+
+    padding: 60px 80px;
+}
+
+/* TOPO */
+
+.topFooter{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center; /* centraliza horizontalmente */
+    text-align: center;
+
+    margin-bottom: 40px;
+}
+
+.textoTopo{
+    font-size: 35px;
+    font-weight: bold;
+
+    width: 500px;
+    line-height: 45px;
+}
+
+.btnFooter{
+    padding: 15px 25px;
+
+    border: none;
+    border-radius: 10px;
+
+    background-color: white;
+    color: blue;
+
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btnFooter:hover{
+    background-color: grey;
+}
+
+/* LINHA */
+
+hr{
+    border: none;
+    height: 1px;
+    background-color: #2a2f38;
+
+    margin: 40px 0;
+}
+
+/* AREA PRINCIPAL */
+
+.areaFooter1{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+/* ESQUERDA */
+
+.divEsquerda{
+    width: 300px;
+}
+
+.logo{
+    font-size: 28px;
+    font-weight: bold;
+
+    margin-bottom: 20px;
+}
+
+.divEsquerda p{
+    color: #bdbdbd;
+    line-height: 28px;
+}
+
+/* DIREITA */
+
+.divDireita{
+    display: flex;
+    gap: 70px;
+
+    flex-wrap: wrap;
+}
+
+/* CAIXINHAS */
+
+.caixinha{
+    display: flex;
+    flex-direction: column;
+
+    gap: 15px;
+}
+
+.caixinha h3{
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.caixinha div{
+    color: #bdbdbd;
+    cursor: pointer;
+}
+
+.caixinha div:hover{
+    color: white;
+}
+
+/* COPYRIGHT */
+
+.copyright{
+    text-align: center;
+    color: #bdbdbd;
+
+    margin-top: 20px;
+}
+
+/* RESPONSIVO */
+
+@media(max-width: 900px){
+
+    .topFooter{
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+
+        align-items: center;
+    }
+
+    .textoTopo{
+        width: 100%;
+        font-size: 28px;
+        line-height: 38px;
+    }
+
+    .areaFooter1{
+        flex-direction: column;
+    }
+
+    .divDireita{
+        gap: 40px;
+    }
+
+    .footer{
+        padding: 40px 30px;
+    }
+
 }
