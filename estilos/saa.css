@@ -247,17 +247,52 @@ border-bottom-right-radius: 50% 60px;
 }
 
 /* ── BRANDS ── */
-.brands {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    margin-top: 50px;
-    margin-bottom: 40px;
+/**/
+
+.brands{
+    text-align: center;
+    padding: 40px 20px;
 }
 
-.brands img {
-    width: 70%;
+.platIntegradas{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+
+    margin-top: 40px;
+    padding: 20px 60px; /* dá respiro lateral */
 }
+
+.platIntegradas div{
+    flex: 1; /* faz ocupar espaço igualmente */
+    min-width: 120px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 120px;
+}
+
+.platIntegradas img{
+    width: 80px;
+    height: 80px;
+
+    object-fit: contain;
+
+    opacity: 0.8;
+    transition: 0.3s ease;
+}
+
+.platIntegradas img:hover{
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+
 
 /* RESPONSIVO */
 
@@ -1434,7 +1469,7 @@ hr{
 }
 
 .caixinha div{
-    color: #bdbdbd;
+    color: #bdbdbd;url(d:/DevX/mozflow)
     cursor: pointer;
 }
 
