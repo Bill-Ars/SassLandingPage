@@ -160,11 +160,11 @@ body{
 }
 
 .campoEmail:hover{
-    background: #9e9ebd;
+    background: #256dd8;
 
     transform: translateY(-8px) scale(1.02);
 
-    box-shadow: 0 10px 25px rgba(122, 18, 18, 0.2);
+    box-shadow: 0 10px 25px rgba(150, 64, 64, 0.2);
 
     cursor: pointer;
 }
@@ -392,7 +392,7 @@ border-bottom-right-radius: 50% 60px;
 }
 
 .servico:hover{
-    background: #d4d4da;
+    background: #581f40;
 
     transform: translateY(-8px) scale(1.02);
 
@@ -1247,7 +1247,7 @@ background-color: yellow;
 .cardB:hover,
 .cardC:hover{
     
-    background: #807fa0;
+    background: #6a7477;
 
     transform: translateY(-8px) scale(1.02);
 
