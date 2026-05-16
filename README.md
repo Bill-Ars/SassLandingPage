@@ -2,7 +2,7 @@
 
 Landing page moderna em desenvolvimento utilizando HTML e CSS.
 
-## 🚀 Sobre o projeto
+## Sobre o projeto
 
 Este projeto tem como objetivo praticar desenvolvimento frontend, estruturação de layouts e criação de interfaces modernas inspiradas em plataformas SaaS.
 
@@ -13,7 +13,7 @@ Atualmente o projeto contém:
 - Seções modernas de landing page
 - Organização de imagens e estilos
 
-## 🛠 Tecnologias utilizadas
+## 🛠 Tecnologias utilizadas 
 
 - HTML5
 - CSS3
@@ -45,4 +45,4 @@ sassLandingPage/
 
 ## 👨‍💻 Autor
 
-Desenvolvido por Bill Arsénio Ndayisaba.
+Desenvolvido por Bill Ndayisaba.

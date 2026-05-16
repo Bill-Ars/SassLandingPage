@@ -10,7 +10,7 @@
 
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background: #f1efef;
+    background-color:rgb(184, 169, 169)
     padding: 10px;
 }
 
@@ -76,6 +76,19 @@ body{
 
     cursor: pointer;
 }
+
+
+.sign button:hover{
+     background: #631448;
+
+    transform: translateX(-8px) scale(1.5);
+
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+
+    cursor: pointer;
+}
+
+
 
 /* HERO */
 
@@ -146,6 +159,16 @@ body{
     gap: 10px;
 }
 
+.campoEmail:hover{
+    background: #9e9ebd;
+
+    transform: translateY(-8px) scale(1.02);
+
+    box-shadow: 0 10px 25px rgba(122, 18, 18, 0.2);
+
+    cursor: pointer;
+}
+
 /* INPUT */
 
 .caixaEmail1 input{
@@ -172,6 +195,21 @@ body{
 
     cursor: pointer;
 }
+
+
+.botaoStart:hover{
+    
+     background: #45473c;
+
+    transform: translateX(-8px) scale(0.8);
+
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+
+    cursor: pointer;
+}
+
+
+
 
 /* DASHBOARD */
 
@@ -269,6 +307,8 @@ border-bottom-right-radius: 50% 60px;
     text-align: center;
 }
 
+
+
 /* TITULO */
 
 .serviceText{
@@ -294,6 +334,8 @@ border-bottom-right-radius: 50% 60px;
 
 /* CARD */
 
+
+
 .servico{
     background-color: white;
 
@@ -312,6 +354,16 @@ border-bottom-right-radius: 50% 60px;
     transition: 0.3s;
 
     box-shadow: 0px 4px 15px rgba(0,0,0,0.08);
+}
+
+.servico:hover{
+    background: #d4d4da;
+
+    transform: translateY(-8px) scale(1.02);
+
+    box-shadow: 0 10px 25px rgba(122, 18, 18, 0.2);
+
+    cursor: pointer;
 }
 
 .servico:hover{
@@ -423,6 +475,16 @@ border-bottom-right-radius: 50% 60px;
     cursor: pointer;
 }
 
+.getStarted1 button:hover{
+    background: #3045ff;
+
+    transform: translateY(-8px) scale(1.02);
+
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+
+    cursor: pointer;
+}
+
 /* AREA DA IMAGEM */
 
 .getStarted2{
@@ -449,10 +511,22 @@ border-bottom-right-radius: 50% 60px;
 
     z-index: 2;
 
-    border-radius: 2px;
-
-   
+    border-radius: 2px; 
 }
+
+/*fazendo umas pequenas responsividades para optima UX*/
+
+.getStarted2 img:hover{
+   
+
+    transform: translateY(-8px) scale(1.02);
+
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+
+    cursor: pointer;
+}
+
+
 
 
 /*Area azul, que é para ser chamativa ao cliente*/
@@ -465,8 +539,7 @@ border-bottom-right-radius: 50% 60px;
     width: 100%;
     background: #0b18a1;
     padding: 60px;
-    border-radius: 20px;
-
+   
     display: flex;
     flex-direction: column;
     gap: 50px;
@@ -506,11 +579,13 @@ border-bottom-right-radius: 50% 60px;
     cursor: pointer;
 
     transition: 0.3s;
+   
 }
 
-.areaCall button:hover{
-    transform: translateY(-2px);
+.areaCall button::hover{
+    background: #d88888;
 }
+
 
 
 /* 
@@ -546,6 +621,21 @@ border-bottom-right-radius: 50% 60px;
     display: flex;
     align-items: flex-start;
     gap: 15px;
+
+    transition: all 0.3s ease;
+}
+
+
+
+
+.stepCard:hover{
+    background: #3045ff;
+
+    transform: translateY(-8px) scale(1.02);
+
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+
+    cursor: pointer;
 }
 
 
@@ -604,6 +694,17 @@ border-bottom-right-radius: 50% 60px;
     border-radius: 20px;
 
     object-fit: cover;
+}
+
+
+.imageArea img:hover{
+    background-color: #0d7928;
+
+    transform: translateY(-8px) scale(1.02);
+
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+
+    cursor: pointer;
 }
 
 
@@ -798,7 +899,7 @@ border-bottom-right-radius: 50% 60px;
 .card{
     width: 320px;
 
-    border: 1px solid #dcdcdc;
+    border: 1px solid #c0aeae;
     border-radius: 20px;
 
     padding: 30px;
@@ -808,12 +909,20 @@ border-bottom-right-radius: 50% 60px;
     gap: 25px;
 
     transition: 0.3s;
+    background-color: ;
 }
 
 
 
+
 .card:hover{
-    transform: translateY(-8px);
+    background: #0d7928;
+
+    transform: translateY(-8px) scale(1.02);
+
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+
+    cursor: pointer;
 }
 
 
@@ -825,7 +934,7 @@ border-bottom-right-radius: 50% 60px;
 }
 
 .popular hr{
-    border-color: rgba(255,255,255,0.3);
+    border-color: rgba(216, 206, 206, 0.3);
 }
 
 
@@ -942,7 +1051,7 @@ border-bottom-right-radius: 50% 60px;
 
     width: 100px;
 
-    border: none;
+    border: 4px solidblue#9aff17;
 
     padding: 6px;
 
@@ -951,7 +1060,7 @@ border-bottom-right-radius: 50% 60px;
     background: #1737ff;
     color: white;
 
-    font-weight: bold;
+    font-weight: bolder;
 
     cursor: pointer;
 
@@ -960,11 +1069,18 @@ border-bottom-right-radius: 50% 60px;
    
 }
 
+
+.card button: hover{
+background-color: yellow;
+}
+
+
 .areaButton{
     display: flex;
     flex-direction: row;;
     justify-content: center;
-    align-items: center;;
+    align-items: center;
+    font-weight: bolder;
 }
 
 .card button:hover{
@@ -1018,7 +1134,7 @@ border-bottom-right-radius: 50% 60px;
 
 
 .areaButton{
-    display: flex';
+    display: flex;
     flex-direction: column;
     align-items: center;
 }
@@ -1053,6 +1169,7 @@ border-bottom-right-radius: 50% 60px;
 }
 
 
+
 /* =========================================
    ÁREA DOS CARDS
 ========================================= */
@@ -1077,7 +1194,7 @@ border-bottom-right-radius: 50% 60px;
 .cardC{
     width: 320px;
 
-    background: #f8f8f8;
+    background: white;
 
     padding: 30px;
 
@@ -1094,7 +1211,15 @@ border-bottom-right-radius: 50% 60px;
 .cardA:hover,
 .cardB:hover,
 .cardC:hover{
-    transform: translateY(-8px);
+    
+    background: #807fa0;
+
+    transform: translateY(-8px) scale(1.02);
+
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+
+    cursor: pointer;
+
 }
 
 
@@ -1137,8 +1262,8 @@ border-bottom-right-radius: 50% 60px;
 }
 
 .user img{
-    width: 55px;
-    height: 55px;
+    width: 60px;
+    height: 60px;
 
     border-radius: 50%;
 
@@ -1206,7 +1331,7 @@ body{
 
 .footer{
     width: 100%;
-    background-color: #081220;
+    background-color: #041835;
     color: white;
 
     padding: 60px 80px;
@@ -1218,7 +1343,7 @@ body{
     display: flex;
     flex-direction: column;
 
-    align-items: center; /* centraliza horizontalmente */
+    align-items: center; 
     text-align: center;
 
     margin-bottom: 40px;
@@ -1236,10 +1361,10 @@ body{
     padding: 15px 25px;
 
     border: none;
-    border-radius: 10px;
+    border-radius: 50px;
 
     background-color: white;
-    color: blue;
+    color: rgb(23, 23, 70);
 
     font-size: 16px;
     cursor: pointer;
@@ -1321,9 +1446,14 @@ hr{
 
 .copyright{
     text-align: center;
-    color: #bdbdbd;
-
+    color: #c49191;
     margin-top: 20px;
+    font-weight: bold;
+}
+
+.bill{
+    font-weight: bold;
+    color: rgb(59, 114, 14);
 }
 
 /* RESPONSIVO */
