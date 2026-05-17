@@ -4,7 +4,6 @@
 
 ![HTML5](images/precos.png)
 ![CSS3](images/clientes.png)
-![HTML5](imagefin.png)
 
 ---
 
