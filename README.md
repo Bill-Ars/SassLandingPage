@@ -4,7 +4,7 @@
 
 ![HTML5](images/precos.png)
 ![CSS3](images/clientes.png)
-![JavaScript](imagefin.png)
+![Java](imagefin.png)
 
 ---
 
