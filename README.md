@@ -9,9 +9,9 @@
 
 ## 📌 Sobre o Projecto
 
-**SassifyMoz** é uma landing page completa para uma plataforma SaaS fictícia voltada para o mercado moçambicano. O projecto foi desenvolvido no âmbito da disciplina de **Programação Web 1** no ISUTC, com foco na aplicação prática de HTML, CSS e JavaScript puros — sem frameworks.
+**SassifyMoz** é uma landing page completa para uma plataforma SaaS voltada para o mercado moçambicano. O projecto foi desenvolvido com foco na aplicação prática de HTML, CSS e JavaScript puros — sem frameworks.
 
-O produto fictício simula uma ferramenta de gestão financeira integrada com **m-Pesa**, **e-Mola** e bancos locais (BCI, Millennium BIM, Standard Bank), com preços em **Meticais (MZN)** e testemunhos de utilizadores moçambicanos.
+O produto simula uma ferramenta de gestão financeira integrada com **m-Pesa**, **e-Mola** e bancos locais (BCI, Millennium BIM, Standard Bank), com preços em **Meticais (MZN)** e testemunhos de utilizadores moçambicanos.
 
 ---
 
