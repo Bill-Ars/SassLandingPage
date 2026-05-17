@@ -1,0 +1,190 @@
+/* =========================
+   RESET
+========================= */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", Arial, sans-serif;
+}
+
+body {
+    background: #bec1c9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: rgb(170, 164, 164);
+}
+
+/* =========================
+   CONTAINER PRINCIPAL
+========================= */
+.container {
+    width: 90%;
+    max-width: 1100px;
+    height: 600px;
+
+    display: flex;
+    border-radius: 20px;
+    overflow: hidden;
+
+    box-shadow: 0 20px 60px rgba(244, 244, 247, 0.4);
+}
+
+/* =========================
+   LADO ESQUERDO
+========================= */
+.left {
+    flex: 1;
+    background: linear-gradient(135deg, #2563eb, #1d4ed8);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 60px;
+    gap: 20px;
+}
+
+.left h1 {
+    font-size: 42px;
+    line-height: 1.2;
+}
+
+.left p {
+    font-size: 16px;
+    opacity: 0.9;
+    line-height: 1.6;
+}
+
+.left img {
+    width: 100%;
+    max-width: 350px;
+    margin-top: 20px;
+    transition: transform 0.3s ease;
+}
+
+.left img:hover {
+    transform: scale(1.05);
+}
+
+/* =========================
+   LADO DIREITO
+========================= */
+.right {
+    flex: 1;
+    background: #979ca5;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+/* =========================
+   FORM BOX
+========================= */
+.formBox {
+    width: 100%;
+    max-width: 350px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    background: #323336;
+    padding: 40px;
+    border-radius: 16px;
+
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.formBox h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* =========================
+   INPUTS
+========================= */
+input {
+    padding: 14px;
+    border: 1px solid #2d3748;
+    border-radius: 10px;
+    background: #1a1c20;
+    color: white;
+    outline: none;
+    transition: 0.3s;
+}
+
+input:focus {
+    border-color: #3b82f6;
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.2);
+}
+
+/* =========================
+   BOTÃO
+========================= */
+button {
+    padding: 14px;
+    border: none;
+    border-radius: 10px;
+
+    background: #3b82f6;
+    color: white;
+    font-weight: bold;
+
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #2563eb;
+    transform: translateY(-2px);
+}
+
+/* =========================
+   MENSAGEM
+========================= */
+#msg {
+    font-size: 14px;
+    text-align: center;
+}
+
+/* =========================
+   LINK LOGIN
+========================= */
+span {
+    text-align: center;
+    font-size: 13px;
+    opacity: 0.8;
+}
+
+span a {
+    color: #60a5fa;
+    text-decoration: none;
+}
+
+span a:hover {
+    text-decoration: underline;
+}
+
+/* =========================
+   RESPONSIVO
+========================= */
+@media (max-width: 900px) {
+    .container {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .left {
+        text-align: center;
+        align-items: center;
+        padding: 40px;
+    }
+
+    .formBox {
+        width: 100%;
+    }
+}

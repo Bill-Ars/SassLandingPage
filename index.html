@@ -37,8 +37,10 @@
 
             <!-- Botão -->
             <div class="sign">
-                <button>Sign Up</button>
-            </div>
+    <button id="signBtn"><a href="telaSign.html">Sign Up</a></button>
+    </div>
+
+            <button id="themeBtn"><span><i class="fa-solid fa-moon"></i></span></button>
 
         </div>
 
@@ -86,9 +88,14 @@
                         Começar grátis
                     </button>
                 </div>
+                <br>
 
-            </div>
+               <br> </div><br>
+            <div><p id="msg"></p></div>
 
+                
+
+            
         </section>
 
 
@@ -340,10 +347,10 @@
 
             
             <div class="botaoN">
-                <button class="active">
+                <button class="active"  id="mensalBtn">
                     Mensal
                 </button>
-                <button class="botao2">
+                <button class="botao2" id="anualBtn">
                     Anual
                 </button>
             </div>
@@ -373,7 +380,7 @@
                Básico
             </div>
 
-            <div class="price">
+            <div class="price"  id="precoBasico">
                 <h2>50 MT a 300 MT</h2>
                 <span>/month</span>
             </div>
@@ -407,6 +414,7 @@
 
         </div>
         <br><br> <br><br><br>
+        <br>
 
         <div class="areaButton">
             <button>
@@ -428,9 +436,9 @@
                 Popular
             </div>
 
-            <div class="price">
+            <div class="price"   id="precoPopular">
                 <h2>308 MT a 1.200 MT</h2>
-                <span>/month</span>
+                <span></span>/month</span>
             </div>
 
             <div class="planText">
@@ -491,7 +499,7 @@
                Empresarial
             </div>
 
-            <div class="price">
+            <div class="price"   id="precoEmpresa">
                 <h2>100 MT a 3.500 MT</h2>
                 <span>/month</span>
             </div>
@@ -795,5 +803,8 @@
 
     </footer>
 
+
+
+<script src="script.js"></script>
 </body>
 </html>
