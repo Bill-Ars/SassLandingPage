@@ -1,6 +1,6 @@
 # SassifyMoz 🇲🇿
 
-> Plataforma fictícia de gestão financeira para PMEs moçambicanas — desenvolvida como projecto académico de Web Programming.
+> Plataforma de gestão financeira para PMEs moçambicanas — desenvolvida como projecto académico de Web Programming.
 
 ![HTML5](images/precos.png)
 ![CSS3](images/clientes.png)
