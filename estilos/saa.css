@@ -1043,12 +1043,12 @@ border-bottom-right-radius: 50% 60px;
 }
 
 .price h2{
-    font-size: 1.8rem;
+    font-size: 1rem;
     font-weight: bold;
 }
 
 .price span{
-    font-size: 0.8rem;
+    font-size: 1rem;
     margin-bottom: 8px;
 }
 
