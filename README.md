@@ -7,7 +7,7 @@
 
 ---
 
-## 📌 Sobre o Projecto
+##  Sobre o Projecto
 
 **SassifyMoz** é uma landing page completa para uma plataforma SaaS voltada para o mercado moçambicano. O projecto foi desenvolvido com foco na aplicação prática de HTML, CSS e JavaScript puros — sem frameworks.
 
@@ -39,7 +39,7 @@ SassifyMoz/
 
 ---
 
-## 🚀 Funcionalidades
+## Funcionalidades
 
 ### Landing Page (`index.html`)
 - **Header** com navegação responsiva e botão de Sign Up
@@ -63,7 +63,7 @@ SassifyMoz/
 
 ---
 
-## 🧠 Conceitos Aplicados
+## Conceitos Aplicados
 
 | Conceito | Onde foi aplicado |
 |---|---|
@@ -80,7 +80,7 @@ SassifyMoz/
 
 ---
 
-## 💡 Destaques Técnicos
+## Destaques Técnicos
 
 ### Curva elíptica entre secções
 ```css
@@ -144,10 +144,10 @@ O projecto adapta-se a três breakpoints:
 - **Mobile** (`≤ 600px`) — tudo em coluna única, fontes reduzidas, botões a 100%
 
 
-## 👨🏾‍💻 Autor
+## 👨🏾Autor
 
 **Bill Arsenio Ndayisaba**
 Web Developer and Student
 
 
-*Projecto desenvolvido para fins académicos. 
+
